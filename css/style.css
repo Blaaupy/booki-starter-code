@@ -226,13 +226,10 @@ div#imgInformation {
 
 .hebergements-cards {
     display: grid;
-    grid-template-columns: repeat(3, 250px); 
-    grid-template-rows: 250px 207.25px;      
-    column-gap: 20px;
-    row-gap: 10px;                              
-    justify-content: center;                 
-    margin: 0 auto;                           
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px; 
 }
+
 
 
 
@@ -248,9 +245,10 @@ div#imgInformation {
     
 }
 .hebergements-cards a {
-    width: 250px;
-    height: 207.25px;
+    width: 100%;
+    height: auto;
 }
+
 
 
 .hebergements-cards .card-content {
