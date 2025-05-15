@@ -67,7 +67,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     max-height: 80px;
-    height: 100px;
+    height: 100%;
 }
 
 #logoSite {
@@ -83,10 +83,10 @@ nav {
     gap: 68px;
 }
 
-a.lienNav:hover {
+.lienNav:hover {
     color: #0065FC;
     border-top: #0065FC solid 2px;
-    padding-top: 37px;
+    padding-top: 22px;
 }
 
 /* Css du titre h1 + le p */
@@ -229,7 +229,7 @@ div#imgInformation {
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
     gap: 20px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 
@@ -283,12 +283,6 @@ div#imgInformation {
     margin: 0;
     font-size: 14px;
     height: 16px;
-}
-
-.hebergements-cards .card-txt {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
 }
 
 .hebergements-cards .card-rating {
@@ -501,6 +495,7 @@ div#imgInformation {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+    .main
     .hebergements-cards {
         grid-template-columns: 1fr; /* 1 seule colonne */
     }
