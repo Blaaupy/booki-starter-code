@@ -203,6 +203,7 @@ i.fa-solid.fa-location-dot {
     border-radius: 50px;
     padding: 4px 19px 4px 19px;
     gap: 10px;
+    text-wrap: nowrap;
     
 }
 #listeFiltre .card:hover {
