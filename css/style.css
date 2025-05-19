@@ -447,7 +447,17 @@ div#imgInformation {
 }
 
 
+@media (min-width: 1131px) and (max-width: 1259px)  {
+    .hebergements .card-content {
+        height: 78.25px;
+    }
+}
 
+@media (min-width: 1025px) and (max-width: 1130px) {
+    .hebergements .card-content {
+        height: 97.25px;
+    }
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
@@ -514,7 +524,16 @@ div#imgInformation {
 }
 
 }
-
+@media (min-width: 770px) and (max-width: 849px){
+    .hebergements .card-content {
+        height: 78.25px;
+    }
+}
+@media (min-width: 768px) and (max-width: 769px){
+    .hebergements .card-content {
+        height: 97.25px;
+    }
+}
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
@@ -551,24 +570,4 @@ div#imgInformation {
         grid-template-columns: 1fr; /* 1 seule colonne */
     }
 }
-@media ((min-width: 1131px) and (max-width: 1259px)) and   {
-    .hebergements .card-content {
-        height: 78.25px;
-    }
-}
 
-@media (min-width: 1025px) and (max-width: 1130px) {
-    .hebergements .card-content {
-        height: 97.25px;
-    }
-}
-@media ((min-width: 770px) and (max-width: 849px)){
-    .hebergements .card-content {
-        height: 78.25px;
-    }
-}
-@media ((min-width: 68px) and (max-width: 769px)){
-    .hebergements .card-content {
-        height: 97.25px;
-    }
-}
