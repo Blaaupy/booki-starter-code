@@ -579,7 +579,6 @@ en invisible car utiliser seulement en version téléphone. */
 
     /* #### Group info #### */
     .infoGroup {
-        max-width: 727px;
         width: 100%;
         padding: 0px 20px;
         align-items: space-around;
@@ -669,22 +668,35 @@ en invisible car utiliser seulement en version téléphone. */
     /* #### Section hebergement ###### */
     .hebergements-and-populaires .hebergements {
         background-color: white;
-        padding: 0px;
+        padding: 20px;
+        gap: 15px;
     }
     /* Passage de la grid hebergement sur une seule colone  */
     .hebergements-cards {
         grid-template-columns: 1fr; 
-    }
-    /* ###### Section activités ####### */
-    .activites {
-        padding: 0px;
+        gap: 15px;
     }
 
+    /* ###### Section activités ####### */
     .activites-cards {
         grid-template-columns: 1fr; 
+        gap: 15px;
     }
+    .activites .card {
+        max-width: 767px;
+    }
+    .activites-cards img {
+        height: 141px;
+    }
+    .activites h3.card-title {
+        height: 100%;
+    }
+
     /* ###### Footer ####### */
     .divFooter {
         flex-direction: column;
+    }
+    .listeFooter {
+        padding: 25px 30px;
     }
 }
