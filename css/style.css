@@ -581,8 +581,14 @@ en invisible car utiliser seulement en version téléphone. */
     .divInfo {
         padding: 0px 20px;
     }
+
+    .infoGroup {
+        align-items: center;
+    }
+
     /* HeadLine */
     .headLine {
+        text-align: center;
         height: 79px;
     }
     .headLine h1 {
@@ -635,6 +641,7 @@ en invisible car utiliser seulement en version téléphone. */
     }
     /* Info Bar */
     .infoBar {
+        justify-content: center;
         height: 38px;
     }
     /* #### Hebergement et populaire ##########*/
