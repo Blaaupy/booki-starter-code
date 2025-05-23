@@ -578,11 +578,8 @@ en invisible car utiliser seulement en version téléphone. */
     }
 
     /* #### Group info #### */
-    .infoGroup {
-        width: 100%;
+    .divInfo {
         padding: 0px 20px;
-        align-items: space-around;
-        align-self: center;
     }
     /* HeadLine */
     .headLine {
